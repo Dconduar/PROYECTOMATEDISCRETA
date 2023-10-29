@@ -1,0 +1,30 @@
+Claro, a continuación, te explicaré cómo cada una de las funciones resuelve los problemas y cómo se obtienen los resultados en la ventana emergente:
+
+**Problema 1 (`resolver_problema_1`):**
+- Se crea una lista llamada `primer_digito_opciones` que contiene las opciones válidas para el primer dígito de un número telefónico. En Guatemala, el primer dígito puede ser cualquier número del 2 al 7.
+
+- Luego, se calcula `total_combinaciones`, que representa la cantidad total de números telefónicos pares posibles. Esto se obtiene multiplicando la cantidad de opciones para el primer dígito por la cantidad de combinaciones posibles para los otros 7 dígitos (cualquier número del 0 al 9).
+
+- A continuación, se construye una cadena `resultado` que contiene los pasos para encontrar el resultado. Se agrega información sobre las opciones válidas para el primer dígito y la cantidad de combinaciones posibles.
+
+- Finalmente, se muestra el resultado en una ventana emergente utilizando `messagebox.showinfo()`.
+
+**Problema 2 (`resolver_problema_2`):**
+
+- Se crean dos conjuntos (`A` y `B`) que contienen caracteres. En este caso, el conjunto `A` contiene las letras de la palabra "octubre" y el conjunto `B` contiene las primeras 10 letras del abecedario.
+
+- Se construye una cadena `resultado` que contiene los pasos para encontrar la intersección de estos dos conjuntos.
+
+- La intersección de los conjuntos `A` y `B` se calcula utilizando el método `intersection()` y se almacena en la variable `interseccion`.
+
+- Se muestra el resultado en una ventana emergente.
+
+**Problema 3 (`resolver_problema_3`):**
+
+- Se obtienen los números ingresados por el usuario en las entradas `entry_num1` y `entry_num2`.
+
+- Se realiza el cálculo del Máximo Común Divisor (MCD) de los dos números utilizando el algoritmo de Euclides. Este algoritmo encuentra el MCD iterativamente, mostrando los pasos intermedios en la cadena `resultado`.
+
+- Se muestra el resultado, que es el MCD de los números ingresados, en una ventana emergente.
+
+En todos los casos, los resultados se construyen como cadenas de texto en la variable `resultado` y luego se muestran en una ventana emergente utilizando `messagebox.showinfo()`. Estas ventanas emergentes muestran la información al usuario cuando hace clic en uno de los botones correspondientes a cada problema.
